@@ -1,7 +1,9 @@
 .body {
     
 }
-
+.top_logo {
+    max-width: 400px;
+}
 .header2 {
     font-size: 28px;
 }
@@ -71,3 +73,21 @@ ul {
     overflow: scroll;
 
 }
+
+@media screen and (max-width: 800px) {
+    .navbar {
+      display: none;
+    }
+    .top_logo {
+        max-width: 75%;
+    }
+    .header2 {
+        font-size: 24px;
+    }
+    .section {
+        font-size: 20px;
+    }
+    .grid {
+        grid-template-columns: auto auto;
+    }
+  }
